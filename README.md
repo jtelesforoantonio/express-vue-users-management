@@ -13,6 +13,8 @@ una base de datos Postgres usando Sequelize como ORM.
 Antes de comenzar primero tenemos que copiar el archivo config.json.example que se encuentra en api/config y renombrarlo
 a config.json, es decir solo quitamos '.example' este archivo tiene la configuración de la base de datos por lo que hay que
 ingresar el usuario/contraseña para poder crear la base de datos.
+
+Tambien tenemos que copiar el archivo .env.example y renombrarlo a .env, este archivo contiene las variables del entorno.
 ```
 
 Dentro de la carpeta de api existe un script(deploy_project.sh) para el deploy del proyecto,
